@@ -1,0 +1,33 @@
+{
+  "name": "safeget",
+  "version": "1.0.0",
+  "description": "Compile-time safe accessor method",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "build": "tsc",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "keywords": [
+    "get",
+    "accessor",
+    "safey",
+    "compile-time"
+  ],
+  "author": "Ted Cohn <https://github.com/teddis>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "23.3.7",
+    "@types/node": "10.12.0",
+    "jest": "23.6.0",
+    "prettier": "1.14.3",
+    "source-map-support": "0.5.9",
+    "ts-jest": "23.10.4",
+    "tslint": "5.11.0",
+    "tslint-config-prettier": "1.15.0",
+    "typescript": "3.1.3"
+  }
+}

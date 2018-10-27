@@ -1,0 +1,16 @@
+*.dat
+*.gz
+*.log
+*.out
+*.swp
+.DS_Store
+/.idea
+.npm
+build/Release
+logs
+node_modules
+npm-debug.log*
+results
+Thumbs.db
+tmp
+/lib
